@@ -38,5 +38,5 @@ create_section('Contact me :e-mail: ', contact_info)
 
 my_work = '''Check out my work below:'''
 create_section('My work :pizza: ', my_work)
-st.image('/Users/jieji/Desktop/jackieweb-main/daysphere.png', caption=None, width=180, channels='RGB', output_format='PNG')
+st.image('daysphere.png', caption=None, width=180, channels='RGB', output_format='PNG')
 st.link_button("View project →", "https://jackieji21.notion.site/Project-Archive-a63ad34de2ba49f39d13d677d9349c5d?pvs=4")
